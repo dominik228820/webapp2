@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayout.MainPage">
+
+    <StackLayout Margin="10" Spacing="5">
+        <StackLayout Orientation="Horizontal">
+            <BoxView Color="Red" />
+            <Label Text="Mike" VerticalTextAlignment="Center" WidthRequest="100" />
+            <Button Text="Accept" />
+            <Button Text="Decline" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <BoxView Color="Blue" />
+            <Label Text="Dave" VerticalTextAlignment="Center" WidthRequest="100" />
+            <Button Text="Accept" />
+            <Button Text="Decline" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <BoxView Color="Green" />
+            <Label Text="Fred" VerticalTextAlignment="Center" WidthRequest="100" />
+            <Button Text="Accept" />
+            <Button Text="Decline" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
