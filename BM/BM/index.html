@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Gra Memory</title>
+</head>
+<body>
+    <div id="pasek-tlo">
+        <div id="pasek">
+            <div id="powitanie">Spróbuj znależć wszystkie postacie</div>
+            <div id="status-gry">Znaleziono: 0, Próby: 0</div>
+            <div class="clear"></div> 
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="gra.js"></script>
+
+    <div id="gra">
+        <div class="klocek" mem-number="1"><img src="images/obj1.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="2"><img src="images/obj2.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="5"><img src="images/obj5.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="4"><img src="images/obj4.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="5"><img src="images/obj5.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="3"><img src="images/obj3.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="3"><img src="images/obj3.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="7"><img src="images/obj7.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="2"><img src="images/obj2.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="1"><img src="images/obj1.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="6"><img src="images/obj6.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="7"><img src="images/obj7.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="4"><img src="images/obj4.png" /><div class="przeslona"></div></div>
+        <div class="klocek" mem-number="6"><img src="images/obj6.png" /><div class="przeslona"></div></div>
+
+        <div id="informacja-znaleziono">Znaleziono pare :)</div>
+    </div>
+</body>
+</html>
